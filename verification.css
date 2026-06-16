@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.verify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.verify i{ 
+    color: white;
+    font-size: 15.5rem;
+    padding: 30px;
+    background-color: rgb(38, 102, 51);
+    border-radius: 50%;
+    box-shadow: -1px 3px rgb(209, 209, 209);
+}
+
+h3{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'poppin' serif;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'mollie-glaston' serif;
+}
+
+a{
+    display: block;
+    width: 300px;          
+    margin: 5px auto;     
+    text-align: center;
+    padding: 12px;
+    background: rgb(40, 83, 66);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 60px;
+}
