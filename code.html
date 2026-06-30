@@ -28,8 +28,18 @@
             <input type="text" class="inp" maxlength="1">
             <input type="text" class="inp" maxlength="1">
         </div>
-        <a href="verification.html" class="sign">Verify</a>
-        <a href="code.html" class="phone">Resend Code</a>
+        <button type="button" onclick="goToVerification()" class="sign">Verify</button>
+        <button type="button" onclick="goToCode()" class="phone">Resend Code</a>
     </form>
+
+    <script>
+        function goToVerification() {
+            window.location.href = 'verification.html'
+        }
+
+        function goTocode() {
+            window.location.href = 'code.html'
+        }
+    </script>
 </body>
 </html>

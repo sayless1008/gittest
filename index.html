@@ -26,10 +26,10 @@
                 <h1 class="p1">Simplified Payment Options</h1>
                 <p class="p2">You can deposit with your card or bank and link your family together with your wallet</p>
             </div>
-            <a href="create-account.html" class="btn">
-        <span>Get Started</span>
-        <i class="fa-solid fa-arrow-right"></i>
-    </a>
+            <button type="button" onclick="goTocreate()" class="btn">
+                 <span>Get Started</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="block1">
             <img src="/img/home-on-a-couch.png" alt="" class="img1">
@@ -38,5 +38,10 @@
         </div>        
     </div>
     
+    <script>
+        function goToCreate() {
+            window.location.href = 'create-account.html'
+        }
+    </script>
 </body>
 </html>

@@ -48,12 +48,18 @@
             <input type="text" name="" id="num"><br>
             <label class="label" for="pass">Confirm P assword</label><p>
             <input type="text" name="" id="Pass"><br>
-            <a class="btn" href="code.html">Sign Up</a>
+            <button type="button" class="btn" onclick="goToCode()">Sign Up</button>
         </form>
     </div>
     <footer>
         <i class="fa-solid fa-lock"></i>
         <span>All information you share is secure and confidential</span>
     </footer>
+
+    <script>
+       function goToCode() {
+        window.location.href = 'code.html'
+       }
+    </script>
 </body>
 </html>
